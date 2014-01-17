@@ -24,7 +24,6 @@ MongoClient.connect('mongodb://127.0.0.1:27017/healthcare-watch', function(err, 
 var request = twitterOauth.post("https://stream.twitter.com/1.1/statuses/filter.json", token, token_secret, { track : "hcahps,aca,healthcare,outpatient,patient satisfaction,ambulatory", language:"en"});
 
 request.on('response', function (response) {
-	var body = '';
 	response.setEncoding('utf8');
 	response.on('data', function (chunk) {
 		var data = JSON.parse(chunk);
