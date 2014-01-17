@@ -1,0 +1,24 @@
+{
+  "name": "HealthcareWatch",
+  "version": "0.0.1",
+  "description": "Track trends in the healthcare industry",
+  "main": "app.js",
+  "dependencies": {
+    "oauth": "latest",
+    "mongodb": "latest"
+  },
+  "devDependencies": {},
+  "author": "Chester ONeill",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "healthcare",
+    "twitter"
+  ]
+}
