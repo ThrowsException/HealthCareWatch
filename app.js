@@ -6,14 +6,14 @@ var querystring = require('querystring');
 var twitterOauth = new oauth (
 		"https://api.twitter.com/oauth/request_token",
 		"https://api.twitter.com/oauth/access_token",
-		"TBb8Ikz7FmU9r24fD8Lyw",
-		"O7vsd4X5W5lMGxCAxrQNqs1a5dT0YSGsW6VMJqZHg",
+		"YOUR_TWITTER_CONSUMER_KEY",
+		"YOUR_TWITTER_CONSUMER_SECRET",
 		"1.0A",
 		null,
 		"HMAC-SHA1"
 );
-var token = "39563947-xFt1GO9wKRgspfRrCyviGimHDekKyMAsjjAjoYHtx";
-var token_secret = "qMD3J51GWSQkvNpfN3UnIpWbbU4L5LPYeqPejoYRvI";
+var token = "YOUR_TWITTER_APP_ACCESS_TOKEN";
+var token_secret = "YOUR_TWITTER_APP_ACCESS_TOKEN_SECRET";
 
 // var healthcare_data_db;
 // MongoClient.connect('mongodb://127.0.0.1:27017/healthcare-watch', function(err, db) {
